@@ -22,3 +22,13 @@
     /* margin: 4px; */
     background-color: rgb(212, 138, 40);
 }
+.order-1{
+    order: 1;
+}
+/* defaul order is 0;higher the order later the boxes will come in row */
+.order-2{
+    order: 2;
+}
+.order-3{
+    order: 3;
+}
