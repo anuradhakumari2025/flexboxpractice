@@ -1,10 +1,24 @@
 .container{
     border: 2px solid red;
+    display: flex;/* display boxes from left to right in container*/
+    height: 80vh;
+    /*justify-content: center; */      /*Justify content will center item according to main axis AND  there is no justify in flex box*/
+    align-items: center;   /* boxes move to centre of container and used if content is only in one line*/
+    align-content: flex-start;     /*boxes move to centre of container and used if content is more than in one line */
+    /*flex-direction: column;*/   /* boxes in container move from top to bottom in container*/
+    flex-wrap: wrap;  /*boxes will not overflow in container if there is more no of boxes*/
+    flex-flow: row wrap;  /*use to set flex direction and flex-wrap*/
+    /* gap: 30px;   */
+     /* a gap of 30px will given between the boxes */
+    /* row-gap: 20px; */     /* gap between rows of boxes */
+    /* column-gap: 10px; */     /* gap between columns of boxes */
+    gap: 20px 10px;/* gap in row and column in one line */
+
 }
 .Item{
-    height: 12px;
-    width: 12px;
+    height: 32px;
+    width: 32px;
     border: 2px solid black;
-    margin: 4px;
-    background-color: burlywood;
+    /* margin: 4px; */
+    background-color: rgb(212, 138, 40);
 }
