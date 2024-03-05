@@ -32,3 +32,6 @@
 .order-3{
     order: 3;
 }
+.Item-1{
+    flex-grow: 6;
+}
